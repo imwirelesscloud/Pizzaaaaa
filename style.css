@@ -1,0 +1,124 @@
+/* Importing Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+}
+
+
+ .logo {
+  position: absolute;
+  left: 5rem;
+  top: 1rem;
+  color: #C06B3E;
+  font-weight: 600;
+  font-size: 3rem;
+  font-family: "Aladin", system-ui;
+  word-spacing: 5px;
+}
+
+.navbar .logo span {
+  color: #C06B3E;
+}
+
+.menu {
+  position: absolute;
+  display: flex;
+  list-style: none;
+  gap: 3rem;
+  right: 0rem;
+}
+
+.navbar a {
+  top: 3rem;
+  position: relative;
+  color: silver;
+  text-decoration: none;
+  transition: 0.2s ease;
+  right: 5rem;
+}
+
+.navbar a:hover {
+  color: #C06B3E;
+}
+
+.logo img {
+  position: fixed;
+  top: 3rem;
+  width: 20rem;
+  left: 2rem;
+}
+
+.GPS {
+  position: fixed;
+  left: 10rem;
+  top: 35rem;
+}
+
+
+.one {
+  height: 100vh;
+  background-image: url(bg.png);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+
+.one .content {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  color: darkgray;
+}
+
+.one .content h2 {
+  font-size: 3rem;
+  max-width: 600px;
+  line-height: 70px;
+}
+
+.one .content p {
+  font-weight: 300;
+  max-width: 600px;
+  margin-top: 15px;
+}
+
+.one .content button {
+  background: darkgray;
+  padding: 12px 30px;
+  border: solid red;
+  font-size: 1rem;
+  border-radius: 6px;
+  margin-top: 38px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.2s ease;
+}
+
+.food .content button:hover {
+  color: silver;
+}
+
+.bg img {
+  position: absolute;
+  right: 5rem;
+  top: 12rem;
+}
+
+
+
+
+
